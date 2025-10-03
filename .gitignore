@@ -1,0 +1,28 @@
+# Ignore node dependencies
+node_modules
+
+# Ignore build output
+dist
+
+# macOS system files
+.DS_Store
+
+# Ignore server public assets
+server/public
+
+# Vite config backups
+vite.config.ts.*
+
+# Tarballs
+*.tar.gz
+
+# Ignore extracted zip and backup folders
+MateNation/
+MateNation.zip
+
+# Ignore local state and replit files
+.local/
+.replit
+
+# Ignore git internals
+.git/
